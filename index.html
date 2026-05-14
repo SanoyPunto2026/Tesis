@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Efecto Hype - Alejandro Ruiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- GSAP for Ultra-Premium Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="presentation-container">
+
+            <!-- BLOQUE 1: CONEXIÓN INICIAL -->
+
+            <!-- 1. PORTADA -->
+            <div class="slide slide-dark layout-center active">
+                <div class="hero-bg"
+                    style="position: absolute; inset: 0; background: url('file:///C:/Users/aleja/.gemini/antigravity/brain/ee1691cd-11c7-4193-b619-6b8dc5ffbb11/keynote_hero_background_1778637940529.png') center/cover no-repeat; opacity: 0.4; z-index: -1;">
+                </div>
+                <h1 class="animate-element" style="margin-top: 15rem;">El "Efecto Hype":<br>Claves de crecimiento para
+                    marcas</h1>
+                <p class="animate-element" style="opacity: 0.7; font-style: italic; margin-top: 1rem;">Análisis
+                    Estratégico
+                    en el Mercado B2C Digital Colombiano</p>
+                <div class="animate-element" style="margin-top: 14rem;">
+                    <p><strong>Alejandro Ruiz Arenas</strong></p>
+                    <p style="opacity: 0.5;">Digital Business | ESIC Business & Marketing School</p>
+                </div>
+            </div>
+
+            <!-- 2. PRESENTACIÓN PERSONAL -->
+            <div class="slide slide-light">
+                <div class="profile-centered">
+                    <div class="profile-bubbles-container">
+                        <div class="bubble bubble-1 animate-element"><i data-lucide="rocket"></i> Emprendedor</div>
+                        <div class="bubble bubble-2 animate-element"><i data-lucide="megaphone"></i> Marketing Digital
+                        </div>
+                        <div class="bubble bubble-3 animate-element"><i data-lucide="cpu"></i> Pasión por la IA</div>
+                        <div class="bubble bubble-4 animate-element"><i data-lucide="sparkles"></i> Evolución Constante
+                        </div>
+                        <div class="bubble bubble-5 animate-element"><i data-lucide="brain"></i> Curiosidad Infinita
+                        </div>
+                        <div class="bubble bubble-6 animate-element"><i data-lucide="zap"></i> Energía Creativa</div>
+                        <div class="bubble bubble-7 animate-element"><i data-lucide="target"></i> Estrategia B2C</div>
+                        <div class="bubble bubble-8 animate-element"><i data-lucide="trending-up"></i> Crecimiento</div>
+                    </div>
+                    <div class="profile-main animate-element">
+                        <div class="profile-photo-circle">
+                            <img src="/profile.jpg" alt="Alejandro Ruiz"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="profile-name">
+                            <h2 style="margin-bottom: 1rem;">Alejandro Ruiz</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. EL GANCHO (TRENDY SHOP) -->
+            <div class="slide slide-dark layout-center">
+                <h1 class="animate-element" style="color: var(--primary);">$2,000,000 Usd</h1>
+                <h2 class="animate-element" style="color: #fff; margin-top: -1rem;">Facturados en tan solo 10 minutos
+                </h2>
+                <div class="glass-card animate-element" style="max-width: 800px; margin-top: 2rem;">
+                    <p style="color: #fff;">El impacto real de <strong>Trendy Shop</strong> en el
+                        mercado nacional.</p>
+                </div>
+
+            </div>
+
+            <!-- 4. HOJA DE RUTA (SOLID STEPS) -->
+            <div class="slide slide-light">
+                <h2 class="animate-element" style="margin-bottom: 0.5rem;">Hoja de Ruta</h2>
+
+                <div class="roadmap-container">
+                    <div class="roadmap-step animate-element">
+                        <div class="step-number">01</div>
+                        <div>
+                            <i data-lucide="zap"
+                                style="width: 48px; height: 48px; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                            <h3>El Problema</h3>
+                        </div>
+                        <p>La brecha entre viralidad y sostenibilidad operativa.</p>
+                    </div>
+                    <div class="roadmap-step animate-element">
+                        <div class="step-number">02</div>
+                        <div>
+                            <i data-lucide="target"
+                                style="width: 48px; height: 48px; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                            <h3>El Núcleo</h3>
+                        </div>
+                        <p>Objetivos, Hipótesis y Marco Estratégico.</p>
+                    </div>
+                    <div class="roadmap-step animate-element">
+                        <div class="step-number">03</div>
+                        <div>
+                            <i data-lucide="settings"
+                                style="width: 48px; height: 48px; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                            <h3>Ejecución</h3>
+                        </div>
+                        <p>Metodología y Análisis de casos colombianos.</p>
+                    </div>
+                    <div class="roadmap-step animate-element">
+                        <div class="step-number">04</div>
+                        <div>
+                            <i data-lucide="search"
+                                style="width: 48px; height: 48px; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                            <h3>Hallazgos</h3>
+                        </div>
+                        <p>Matriz, Patrones y Discusión crítica.</p>
+                    </div>
+                    <div class="roadmap-step animate-element">
+                        <div class="step-number">05</div>
+                        <div>
+                            <i data-lucide="flag"
+                                style="width: 48px; height: 48px; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                            <h3>Cierre</h3>
+                        </div>
+                        <p>Conclusiones y proyecciones futuras.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOQUE 2: EL NÚCLEO -->
+
+            <!-- 6. EL PROBLEMA / EL DESAFÍO -->
+            <div class="slide slide-dark layout-center">
+                <div class="hero-bg"
+                    style="position: absolute; inset: 0; background: linear-gradient(45deg, rgba(15, 23, 42, 0.9), rgba(112, 0, 255, 0.2)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80') center/cover; opacity: 0.2; z-index: -1;">
+                </div>
+                <h1 class="animate-element"
+                    style="line-height: 1.2; letter-spacing: -2px; text-align: center; padding-bottom: 0.2em;">
+                    ¿Suerte o
+                    Estrategia?</h1>
+                <div class="glass-card animate-element" style="margin-top: 3rem; max-width: 900px;">
+                    <p class="text-h4" style="line-height: 1.4;">El Hype se percibe como un <strong>factor de
+                            azar</strong>.</p>
+                    <div
+                        style="margin-top: 2rem; padding: 1rem; border-left: 4px solid #ff4757; background: rgba(255, 71, 87, 0.1);">
+                        <p style="color: #ff4757; font-weight: 800;  letter-spacing: 0.15em;">EL
+                            PROBLEMA</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. OBJETIVOS -->
+            <div class="slide slide-light">
+                <h2 class="animate-element" style="margin-bottom: 2.5rem;">Propósito de la Investigación</h2>
+
+                <div class="animate-element"
+                    style="width: 95%; max-width: 1500px; margin: 0 auto; transform: translateY(-20px);">
+                    <!-- Top Section: Objetivo General (Bold & Large) -->
+                    <div class="glass-card"
+                        style="border-left: 10px solid var(--primary); padding: 2rem 4rem; margin-bottom: 2.5rem; text-align: center;">
+                        <p
+                            style="line-height: 1.4; font-weight: 500; color: #1e293b; max-width: 1200px; margin: 0 auto;">
+                            Entender cómo el <strong>"Efecto Hype"</strong> nace, se mantiene o muere para establecer un
+                            <strong>marco de referencia replicable</strong> en el mercado B2C colombiano.
+                        </p>
+                    </div>
+
+                    <!-- Bottom Section: Objetivos Específicos in 3 Horizontal Columns -->
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                        <!-- Objective Card 1 -->
+                        <div class="glass-card"
+                            style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem 2rem; border-radius: 24px; min-height: 120px;">
+                            <div
+                                style="background: rgba(0, 242, 255, 0.1); width: 65px; height: 65px; border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i data-lucide="map" style="color: var(--navy); width: 32px; height: 32px;"></i>
+                            </div>
+                            <p class="text-sm" style="line-height: 1.3; margin: 0;">
+                                <strong class="text-lg"
+                                    style="color: var(--navy);  display: block; margin-bottom: 0.3rem; letter-spacing: 0.05em;">MAPEAR</strong>
+                                Características comunes en estrategias Online y Offline.
+                            </p>
+                        </div>
+
+                        <!-- Objective Card 2 -->
+                        <div class="glass-card"
+                            style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem 2rem; border-radius: 24px; min-height: 120px;">
+                            <div
+                                style="background: rgba(0, 242, 255, 0.1); width: 65px; height: 65px; border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i data-lucide="bar-chart-3" style="color: var(--navy); width: 32px; height: 32px;"></i>
+                            </div>
+                            <p style=" line-height: 1.3; margin: 0;">
+                                <strong class="text-lg"
+                                    style="color: var(--navy);  display: block; margin-bottom: 0.3rem; letter-spacing: 0.05em;">ANALIZAR</strong>
+                                Mecanismos psicológicos que detonan el consumo.
+                            </p>
+                        </div>
+
+                        <!-- Objective Card 3 -->
+                        <div class="glass-card"
+                            style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem 2rem; border-radius: 24px; min-height: 120px;">
+                            <div
+                                style="background: rgba(0, 242, 255, 0.1); width: 65px; height: 65px; border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <i data-lucide="target" style="color: var(--navy); width: 32px; height: 32px;"></i>
+                            </div>
+                            <p class="text-sm" style="line-height: 1.3; margin: 0;">
+                                <strong class="text-lg"
+                                    style="color: var(--navy);  display: block; margin-bottom: 0.3rem; letter-spacing: 0.05em;">CARACTERIZAR</strong>
+                                Los tipos de Hype y su alcance real.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. HIPÓTESIS -->
+            <div class="slide slide-dark layout-center">
+                <div class="hero-bg"
+                    style="position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(0, 242, 255, 0.15) 0%, transparent 70%); z-index: -1;">
+                </div>
+                <div class="animate-element" style="margin-bottom: 3rem; display: flex; justify-content: center;">
+                    <div
+                        style="background: rgba(0, 242, 255, 0.1); width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 40px rgba(0, 242, 255, 0.2); border: 1px solid rgba(0, 242, 255, 0.3);">
+                        <i data-lucide="brain" style="color: var(--primary); width: 60px; height: 60px;"></i>
+                    </div>
+                </div>
+                <div class="glass-card animate-element"
+                    style="max-width: 1000px; text-align: center; border: 1px solid rgba(0, 242, 255, 0.3);">
+                    <p style="line-height: 1.4; font-style: italic; color: var(--primary);">
+                        "El efecto hype <strong>no es un evento aleatorio</strong> sino más bien un efecto predecible
+                        fundamentado en las <strong>variables psicológicas</strong> del consumidor."
+                    </p>
+                </div>
+            </div>
+
+            <!-- 9. MARCO ESTRATÉGICO 1 -->
+            <div class="slide slide-light">
+                <h2 class="animate-element" style="margin-bottom: 3.5rem;">¿Qué es el Hype en realidad?</h2>
+
+                <div class="animate-element"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; width: 95%; max-width: 1600px; margin: 0 auto; align-items: stretch;">
+
+                    <!-- Left Column: Thesis Definition -->
+                    <div class="glass-card"
+                        style="border-left: 10px solid var(--accent); padding: 3rem; position: relative; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="position: absolute; top: 2rem; left: 2rem; color: var(--primary); opacity: 0.5;">
+                            <i data-lucide="quote" style="width: 48px; height: 48px;"></i>
+                        </div>
+                        <p style="line-height: 1.6; color: var(--navy); opacity: 0.8; margin-top: 2rem;">
+                            "El hype se entiende como elevar las expectativas del consumidor mediante el
+                            <strong>storytelling</strong>, dando valor al producto no solo por su funcionalidad, sino
+                            por la narrativa detrás."
+                        </p>
+                    </div>
+
+                    <!-- Right Column: Recursive Engine -->
+                    <div class="glass-card"
+                        style="padding: 3rem; border-right: 10px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 450px;">
+                        <h3
+                            style="color: var(--navy); margin-bottom: 2rem; text-align: center; opacity: 0.9; font-weight: 800;">
+                            Economía de Compromiso Recursivo</h3>
+
+                        <div
+                            style="position: relative; width: 100%; display: flex; flex-direction: column; gap: 1.5rem; flex-grow: 1; justify-content: center;">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                                <div
+                                    style="padding: 1.2rem; background: rgba(0,0,0,0.03); border-radius: 15px; text-align: center; border: 1px solid rgba(0,0,0,0.05);">
+                                    <strong class="text-h4"
+                                        style="color: var(--navy); display: block;  letter-spacing: 0.05em;">1.
+                                        Hype</strong>
+                                </div>
+                                <div
+                                    style="padding: 1.2rem; background: rgba(0,0,0,0.03); border-radius: 15px; text-align: center; border: 1px solid rgba(0,0,0,0.05);">
+                                    <strong class="text-h4"
+                                        style="color: var(--navy); display: block;  letter-spacing: 0.05em;">3.
+                                        Efecto Dominó</strong>
+                                </div>
+                            </div>
+
+                            <div
+                                style="position: relative; height: 140px; width: 100%; display: flex; justify-content: center; align-items: center;">
+                                <svg viewBox="0 0 300 120" style="width: 100%; height: 100%; overflow: visible;">
+                                    <path
+                                        d="M75,60 C75,10 135,10 150,60 C165,110 225,110 225,60 C225,10 165,10 150,60 C135,110 75,110 75,60"
+                                        fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="4" />
+                                    <path
+                                        d="M75,60 C75,10 135,10 150,60 C165,110 225,110 225,60 C225,10 165,10 150,60 C135,110 75,110 75,60"
+                                        fill="none" stroke="url(#loopGrad4)" stroke-width="5">
+                                        <animate attributeName="stroke-dasharray" from="0,600" to="600,0" dur="3s"
+                                            repeatCount="indefinite" />
+                                    </path>
+                                    <defs>
+                                        <linearGradient id="loopGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:var(--primary)" />
+                                            <stop offset="100%" style="stop-color:var(--accent)" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div
+                                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 0.4rem 1.2rem; border-radius: 30px;  font-weight: 900; color: var(--navy); border: 2px solid var(--primary); letter-spacing: 0.05em; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    BUCLE DE DIFUSIÓN</div>
+                            </div>
+
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                                <div
+                                    style="padding: 1.2rem; background: rgba(0,0,0,0.03); border-radius: 15px; text-align: center; border: 1px solid rgba(0,0,0,0.05);">
+                                    <strong class="text-h4"
+                                        style="color: var(--navy); display: block;  letter-spacing: 0.05em;">4.
+                                        Bucle</strong>
+                                </div>
+                                <div
+                                    style="padding: 1.2rem; background: rgba(0,0,0,0.03); border-radius: 15px; text-align: center; border: 1px solid rgba(0,0,0,0.05);">
+                                    <strong class="text-h4"
+                                        style="color: var(--navy); display: block;  letter-spacing: 0.05em;">2.
+                                        eWOM</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10. PSICOLOGÍA Y MECANISMOS DE ACTIVACIÓN -->
+            <div class="slide slide-dark">
+                <h2 class="animate-element" style="margin-bottom: 2rem; color: #fff;">Psicología y Mecanismos de
+                    Activación</h2>
+
+                <div class="animate-element"
+                    style="width: 95%; max-width: 1700px; margin: 0 auto; display: flex; flex-direction: column; gap: 2rem;">
+
+                    <!-- Row 1: SHIFT Model (Psychological Foundation) -->
+                    <div class="glass-card" style="padding: 3rem; border-top: 6px solid var(--primary);">
+                        <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5rem;">
+                            <div
+                                style="text-align: center; background: rgba(0, 242, 255, 0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(0, 242, 255, 0.1);">
+                                <div class="text-h2"
+                                    style="font-weight: 900; color: var(--primary); margin-bottom: 0.5rem;">
+                                    S</div>
+                                <p class="text-h4" style="font-weight: 700; margin-bottom: 0; color: #fff; ">
+                                    Social Influence</p>
+                            </div>
+                            <div
+                                style="text-align: center; background: rgba(0, 242, 255, 0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(0, 242, 255, 0.1);">
+                                <div class="text-h2"
+                                    style="font-weight: 900; color: var(--primary); margin-bottom: 0.5rem;">
+                                    H</div>
+                                <p class="text-h4" style="font-weight: 700; margin-bottom: 0; color: #fff; ">
+                                    Habit Formation</p>
+                            </div>
+                            <div
+                                style="text-align: center; background: rgba(0, 242, 255, 0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(0, 242, 255, 0.1);">
+                                <div class="text-h2"
+                                    style="font-weight: 900; color: var(--primary); margin-bottom: 0.5rem;">
+                                    I</div>
+                                <p class="text-h4" style="font-weight: 700; margin-bottom: 0; color: #fff; ">
+                                    Individual Self</p>
+                            </div>
+                            <div
+                                style="text-align: center; background: rgba(0, 242, 255, 0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(0, 242, 255, 0.1);">
+                                <div class="text-h2"
+                                    style="font-weight: 900; color: var(--primary); margin-bottom: 0.5rem;">
+                                    F</div>
+                                <p class="text-h4" style="font-weight: 700; margin-bottom: 0; color: #fff; ">
+                                    Feelings</p>
+                            </div>
+                            <div
+                                style="text-align: center; background: rgba(0, 242, 255, 0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(0, 242, 255, 0.1);">
+                                <div class="text-h2"
+                                    style="font-weight: 900; color: var(--primary); margin-bottom: 0.5rem;">
+                                    T</div>
+                                <p class="text-h4" style="font-weight: 700; margin-bottom: 0; color: #fff; ">
+                                    Tangibility</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Activation Mechanisms (Execution) -->
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                        <div class="glass-card"
+                            style="padding: 3rem; border-top: 4px solid var(--accent); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="brain"
+                                style="color: var(--accent); width: 60px; height: 60px; margin-bottom: 1.5rem;"></i>
+                            <h4 class="text-h4" style="color: #fff; margin: 0; font-weight: 700;">Interacción Parasocial
+                            </h4>
+                        </div>
+                        <div class="glass-card"
+                            style="padding: 3rem; border-top: 4px solid var(--accent); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="trending-up"
+                                style="color: var(--accent); width: 60px; height: 60px; margin-bottom: 1.5rem;"></i>
+                            <h4 class="text-h4" style="color: #fff; margin: 0; font-weight: 700;">Efecto Snob /
+                                Bandwagon</h4>
+                        </div>
+                        <div class="glass-card"
+                            style="padding: 3rem; border-top: 4px solid var(--accent); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="clock"
+                                style="color: var(--accent); width: 60px; height: 60px; margin-bottom: 1.5rem;"></i>
+                            <h4 class="text-h4" style="color: #fff; margin: 0; font-weight: 700;">Sincronización
+                                Narrativa</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11. EL CICLO DE VIDA DEL HYPE -->
+            <div class="slide slide-dark layout-center">
+                <h2 class="animate-element"
+                    style="color: #fff; margin-bottom: 3rem; font-family: var(--font-display); text-align: center;">
+                    Ciclo de Vida del Hype</h2>
+
+                <div class="animate-element"
+                    style="position: relative; width: 100%; max-width: 1400px; height: 700px; margin: 0 auto;">
+                    <!-- SVG Background Grid -->
+                    <div
+                        style="position: absolute; inset: 0; background-image: radial-gradient(circle at 2px 2px, rgba(0, 242, 255, 0.05) 1px, transparent 0); background-size: 50px 50px; mask-image: radial-gradient(circle, black 40%, transparent 100%);">
+                    </div>
+
+                    <!-- Hype Wave SVG -->
+                    <svg viewBox="0 -100 1200 600" style="width: 100%; height: 100%; overflow: visible;">
+                        <defs>
+                            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:var(--primary); stop-opacity:1" />
+                                <stop offset="40%" style="stop-color:var(--primary); stop-opacity:1" />
+                                <stop offset="70%" style="stop-color:#ff4d4d; stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:var(--accent); stop-opacity:1" />
+                            </linearGradient>
+                            <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+                                <feGaussianBlur stdDeviation="15" result="blur" />
+                                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                            </filter>
+                        </defs>
+
+                        <!-- Time Axis -->
+                        <line x1="50" y1="450" x2="1150" y2="450" stroke="rgba(255,255,255,0.1)" stroke-width="2"
+                            stroke-dasharray="10 10" />
+                        <text x="50" y="480" fill="rgba(255,255,255,0.3)" font-size="14" font-weight="700"
+                            font-family="var(--font-body)">Inicio del Hype</text>
+                        <text x="1080" y="480" fill="rgba(255,255,255,0.3)" font-size="14" font-weight="700"
+                            font-family="var(--font-body)">Madurez</text>
+
+                        <!-- The Wave Path -->
+                        <path d="M50,450 C150,450 250,120 450,120 C650,120 750,420 850,420 C950,420 1050,320 1150,320"
+                            fill="none" stroke="url(#waveGradient)" stroke-width="12" stroke-linecap="round"
+                            filter="url(#nodeGlow)"
+                            style="stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: drawPath 4s ease-out forwards;" />
+
+                        <!-- Phase 1: Hyping -->
+                        <g class="wave-node" style="animation-delay: 1s;">
+                            <circle cx="200" cy="350" r="15" fill="var(--primary)" filter="url(#nodeGlow)" />
+                            <foreignObject x="50" y="370" width="300" height="150" style="overflow: visible;">
+                                <div
+                                    style="color: var(--primary); text-align: center; font-family: var(--font-display);">
+                                    <div class="text-h4" style="font-weight: 800;">
+                                        Hyping</div>
+                                    <div class="text-sm" style="opacity: 0.8; font-weight: 600; white-space: nowrap;">
+                                        Disparador Inicial
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+
+                        <!-- Special Marker: Hype Emprendedor (Ascending phase) -->
+                        <g class="wave-node" style="animation-delay: 1.5s;">
+                            <foreignObject x="-120" y="90" width="400" height="150" style="overflow: visible;">
+                                <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                                    <div class="glass-card"
+                                        style="padding: 0.8rem 1.2rem; border: 1px solid var(--primary); display: flex; align-items: center; gap: 0.8rem; background: rgba(0, 242, 255, 0.05);">
+                                        <i data-lucide="rocket"
+                                            style="color: var(--primary); width: 24px; height: 24px;"></i>
+                                        <span class="text-h4"
+                                            style="font-weight: 800; color: #fff;  white-space: nowrap;">Hype
+                                            Emprendedor</span>
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+
+                        <!-- Phase 2: Upswing (The Peak) -->
+                        <g class="wave-node" style="animation-delay: 2s;">
+                            <circle cx="450" cy="120" r="20" fill="var(--primary)" filter="url(#nodeGlow)" />
+                            <foreignObject x="300" y="0" width="300" height="120" style="overflow: visible;">
+                                <div
+                                    style="color: var(--primary); text-align: center; font-family: var(--font-display);">
+                                    <div class="text-h4" style="font-weight: 800; ">
+                                        Upswing</div>
+                                    <div style=" opacity: 0.8; font-weight: 600; white-space: nowrap;">
+                                        Pico de Expectativas
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+
+                        <!-- Special Marker: Hype Estabilizado (Transition phase) -->
+                        <g class="wave-node" style="animation-delay: 2.8s;">
+                            <foreignObject x="680" y="140" width="400" height="150" style="overflow: visible;">
+                                <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                                    <div class="glass-card"
+                                        style="padding: 0.8rem 1.2rem; border: 1px solid var(--accent); display: flex; align-items: center; gap: 0.8rem; background: rgba(61, 132, 255, 0.05);">
+                                        <i data-lucide="shield-check"
+                                            style="color: var(--accent); width: 24px; height: 24px;"></i>
+                                        <span class="text-h4"
+                                            style="font-weight: 800; color: #fff;  white-space: nowrap;">Hype
+                                            Estabilizado</span>
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+
+                        <!-- Phase 3: Downswing (The Trough) -->
+                        <g class="wave-node" style="animation-delay: 3.5s;">
+                            <circle cx="850" cy="420" r="20" fill="#ff4d4d" filter="url(#nodeGlow)" />
+                            <foreignObject x="700" y="450" width="300" height="150" style="overflow: visible;">
+                                <div style="color: #ff4d4d; text-align: center; font-family: var(--font-display);">
+                                    <div class="text-h4" style="font-weight: 800; ">
+                                        Downswing</div>
+                                    <div style=" opacity: 0.8; font-weight: 600; white-space: nowrap;">
+                                        Valle de Desilusión
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+
+                        <!-- Phase 4: Revival -->
+                        <g class="wave-node" style="animation-delay: 4.5s;">
+                            <circle cx="1150" cy="320" r="15" fill="var(--accent)" filter="url(#nodeGlow)" />
+                            <foreignObject x="1000" y="340" width="300" height="150" style="overflow: visible;">
+                                <div
+                                    style="color: var(--accent); text-align: center; font-family: var(--font-display);">
+                                    <div class="text-h4" style="font-weight: 800;">
+                                        Revival</div>
+                                    <div class="text-sm" style="opacity: 0.8; font-weight: 600; white-space: nowrap;">
+                                        Meseta de Productividad
+                                    </div>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </svg>
+                </div>
+
+                <style>
+                    @keyframes drawPath {
+                        to {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+
+                    .wave-node {
+                        opacity: 0;
+                        transform-origin: center;
+                        transform: scale(0);
+                        animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+                    }
+
+                    @keyframes popIn {
+                        to {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                    }
+                </style>
+            </div>
+
+            <!-- 12. RESPUESTA ESTRATÉGICA (LADO OSCURO vs CAPACIDADES DINÁMICAS) -->
+            <div class="slide slide-dark">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1.5rem;">
+                    <h2 class="animate-element" style="color: #fff; margin: 0; ">Lado Oscuro y
+                        Capacidades Dinámicas
+                    </h2>
+                </div>
+
+                <div class="animate-element"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: stretch;">
+
+                    <!-- Left: Risks (The Dark Side) -->
+                    <div
+                        style="background: rgba(10, 10, 15, 0.6); padding: 2.5rem; border-radius: 20px; border: 1px solid rgba(255, 77, 77, 0.2); box-shadow: 0 10px 30px rgba(255, 77, 77, 0.05); display: flex; flex-direction: column; position: relative; overflow: hidden;">
+                        <h3
+                            style="color: #ff4d4d; margin-top: 0; margin-bottom: 2rem; border-bottom: 1px solid rgba(255,77,77,0.2); padding-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 1rem;">
+                            <i data-lucide="moon" style="width: 28px; height: 28px;"></i>
+                            Los Riesgos
+                        </h3>
+
+                        <!-- 3 Risks (Stomping the graph) -->
+                        <div
+                            style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; position: relative; z-index: 2;">
+                            <!-- Risk 1 -->
+                            <div
+                                style="background: rgba(255, 77, 77, 0.05); border: 1px solid rgba(255,77,77,0.2); border-top: 4px solid #ff4d4d; border-radius: 10px; padding: 1.5rem 1rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="message-square-warning"
+                                    style="color: #ff4d4d; width: 24px; height: 24px;"></i>
+                                <h4 style="color: #fff; margin: 0; line-height: 1.2;">Cinismo y NWOM
+                                </h4>
+                                <p style=" opacity: 0.7; margin: 0;">Ruido destructivo</p>
+                            </div>
+                            <!-- Risk 2 -->
+                            <div
+                                style="background: rgba(255, 77, 77, 0.05); border: 1px solid rgba(255,77,77,0.2); border-top: 4px solid #ff4d4d; border-radius: 10px; padding: 1.5rem 1rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; transform: translateY(15px);">
+                                <i data-lucide="alert-triangle" style="color: #ff4d4d; width: 24px; height: 24px;"></i>
+                                <h4 style="color: #fff; margin: 0; line-height: 1.2;">Dark Patterns
+                                </h4>
+                                <p style=" opacity: 0.7; margin: 0;">Erosión de confianza</p>
+                            </div>
+                            <!-- Risk 3 -->
+                            <div
+                                style="background: rgba(255, 77, 77, 0.05); border: 1px solid rgba(255,77,77,0.2); border-top: 4px solid #ff4d4d; border-radius: 10px; padding: 1.5rem 1rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; transform: translateY(30px);">
+                                <i data-lucide="heart-crack" style="color: #ff4d4d; width: 24px; height: 24px;"></i>
+                                <h4 style="color: #fff; margin: 0; line-height: 1.2;">Duelo del
+                                    Cliente</h4>
+                                <p style=" opacity: 0.7; margin: 0;">Respuesta negativa</p>
+                            </div>
+                        </div>
+
+                        <!-- Declining Graph (Being stomped) -->
+                        <div
+                            style="margin-top: -1rem; position: relative; z-index: 1; flex-grow: 1; display: flex; align-items: flex-end;">
+                            <svg viewBox="0 0 300 120"
+                                style="width: 100%; height: 100px; filter: drop-shadow(0 5px 15px rgba(255,77,77,0.4));">
+                                <!-- Mountain up -->
+                                <path d="M 0 80 L 40 40 L 80 60 L 120 20" fill="none" stroke="rgba(255,77,77,0.5)"
+                                    stroke-width="4" stroke-dasharray="5,5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <!-- Crashing down -->
+                                <path d="M 120 20 L 180 60 L 220 40 L 280 100" fill="none" stroke="#ff4d4d"
+                                    stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                                <!-- Arrow -->
+                                <polygon points="270,90 295,115 260,110" fill="#ff4d4d" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Right: Solution (Dynamic Capabilities) -->
+                    <div
+                        style="background: rgba(255, 255, 255, 0.95); padding: 2.5rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 242, 255, 0.1); display: flex; flex-direction: column;">
+                        <h3
+                            style="color: var(--navy); margin-top: 0; margin-bottom: 2rem; border-bottom: 2px solid rgba(0,0,0,0.1); padding-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 1rem;">
+                            <i data-lucide="sun" style="width: 28px; height: 28px; color: var(--primary);"></i>
+                            Capacidades Dinámicas
+                        </h3>
+
+                        <div style="display: flex; flex-grow: 1; align-items: center; gap: 2rem;">
+                            <!-- The Rocket -->
+                            <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+                                <div style="position: relative;">
+                                    <i data-lucide="rocket"
+                                        style="width: 240px; height: 240px; color: var(--primary); filter: drop-shadow(0 10px 20px rgba(0,242,255,0.4)); transform: rotate(-45deg);"></i>
+                                </div>
+                            </div>
+
+                            <!-- The Capabilities List -->
+                            <div style="flex: 1; display: flex; flex-direction: column; gap: 2rem;">
+                                <!-- Capability 1 -->
+                                <div
+                                    style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem; background: #f8f9fa; border-radius: 15px; border-left: 6px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                                    <div
+                                        style="background: rgba(0, 242, 255, 0.15); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                        <i data-lucide="eye"
+                                            style="color: var(--primary); width: 30px; height: 30px;"></i>
+                                    </div>
+                                    <h4 style="color: var(--navy); margin: 0; font-weight: 700;">
+                                        Sensing</h4>
+                                </div>
+
+                                <!-- Capability 2 -->
+                                <div
+                                    style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem; background: #f8f9fa; border-radius: 15px; border-left: 6px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                                    <div
+                                        style="background: rgba(0, 242, 255, 0.15); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                        <i data-lucide="zap"
+                                            style="color: var(--primary); width: 30px; height: 30px;"></i>
+                                    </div>
+                                    <h4 style="color: var(--navy); margin: 0; font-weight: 700;">
+                                        Seizing</h4>
+                                </div>
+
+                                <!-- Capability 3 -->
+                                <div
+                                    style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem; background: #f8f9fa; border-radius: 15px; border-left: 6px solid var(--primary); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                                    <div
+                                        style="background: rgba(0, 242, 255, 0.15); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                        <i data-lucide="refresh-cw"
+                                            style="color: var(--primary); width: 30px; height: 30px;"></i>
+                                    </div>
+                                    <h4 style="color: var(--navy); margin: 0; font-weight: 700;">
+                                        Transforming</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOQUE 3: EJECUCIÓN / METODOLOGÍA -->
+
+            <!-- 13. METODOLOGÍA UNIFICADA -->
+            <div class="slide slide-light">
+                <h2 style="margin-top: 0; font-weight: 700;">Justificación de Metodología de Caso Múltiple</h2>
+
+                <div style="display: flex; gap: 4rem; margin-top: 4rem; align-items: stretch; flex-grow: 1;">
+
+                    <!-- Left column: Análisis de caso múltiple -->
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <div
+                            style="display: flex; flex-direction: column; justify-content: space-around; height: 100%; gap: 2.5rem; width: 100%;">
+
+                            <!-- Criterio 1 -->
+                            <div
+                                style="background: #ffffff; padding: 2.5rem 3rem; border-radius: 30px; display: flex; flex-direction: row; align-items: center; text-align: left; gap: 3rem; box-shadow: 0 10px 40px rgba(0,0,0,0.06); border: 1px solid rgba(0,242,255,0.15); transition: all 0.3s ease;">
+                                <div
+                                    style="background: rgba(0,242,255,0.12); width: 90px; height: 90px; border-radius: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i data-lucide="fingerprint"
+                                        style="color: var(--primary); width: 45px; height: 45px;"></i>
+                                </div>
+                                <h4 class="text-h4"
+                                    style="color: var(--navy); font-weight: 700; margin: 0; letter-spacing: -0.5px;">
+                                    Accesibilidad</h4>
+                            </div>
+
+                            <!-- Criterio 2 -->
+                            <div
+                                style="background: #ffffff; padding: 2.5rem 3rem; border-radius: 30px; display: flex; flex-direction: row; align-items: center; text-align: left; gap: 3rem; box-shadow: 0 10px 40px rgba(0,0,0,0.06); border: 1px solid rgba(0,242,255,0.15); transition: all 0.3s ease;">
+                                <div
+                                    style="background: rgba(0,242,255,0.12); width: 90px; height: 90px; border-radius: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i data-lucide="calendar-check"
+                                        style="color: var(--primary); width: 45px; height: 45px;"></i>
+                                </div>
+                                <h4 class="text-h4"
+                                    style="color: var(--navy); font-weight: 700; margin: 0; letter-spacing: -0.5px;">
+                                    Validez</h4>
+                            </div>
+
+                            <!-- Criterio 3 -->
+                            <div
+                                style="background: #ffffff; padding: 2.5rem 3rem; border-radius: 30px; display: flex; flex-direction: row; align-items: center; text-align: left; gap: 3rem; box-shadow: 0 10px 40px rgba(0,0,0,0.06); border: 1px solid rgba(0,242,255,0.15); transition: all 0.3s ease;">
+                                <div
+                                    style="background: rgba(0,242,255,0.12); width: 90px; height: 90px; border-radius: 22px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i data-lucide="users-2"
+                                        style="color: var(--primary); width: 45px; height: 45px;"></i>
+                                </div>
+                                <h4 class="text-h4"
+                                    style="color: var(--navy); font-weight: 700; margin: 0; letter-spacing: -0.5px;">
+                                    Diversidad</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right column: Los 4 Pilares -->
+                    <div style="flex: 1.2; display: flex; flex-direction: column; justify-content: space-between;">
+
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; flex-grow: 1;">
+                            <!-- Pilar 1 -->
+                            <div class="glass-card"
+                                style="position: relative; overflow: hidden; padding: 3rem; text-align: left; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 15px 45px rgba(0,0,0,0.08); border: none;">
+                                <div
+                                    style="position: absolute; top: 0; left: 0; right: 0; height: 8px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                                </div>
+                                <div
+                                    style="background: rgba(0, 242, 255, 0.1); width: 70px; height: 70px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                                    <i data-lucide="globe"
+                                        style="color: var(--primary); width: 35px; height: 35px;"></i>
+                                </div>
+                                <h4 style="font-weight: 400; color: var(--navy); margin: 0; line-height: 1.3;">
+                                    Factores moderadores del contexto específico</h4>
+                            </div>
+
+                            <!-- Pilar 2 -->
+                            <div class="glass-card"
+                                style="position: relative; overflow: hidden; padding: 3rem; text-align: left; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 15px 45px rgba(0,0,0,0.08); border: none;">
+                                <div
+                                    style="position: absolute; top: 0; left: 0; right: 0; height: 8px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                                </div>
+                                <div
+                                    style="background: rgba(0, 242, 255, 0.1); width: 70px; height: 70px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                                    <i data-lucide="zap" style="color: var(--primary); width: 35px; height: 35px;"></i>
+                                </div>
+                                <h4 style="font-weight: 400; color: var(--navy); margin: 0; line-height: 1.3;">
+                                    Estrategias de "Hyping" y actividades omnicanal claves</h4>
+                            </div>
+
+                            <!-- Pilar 3 -->
+                            <div class="glass-card"
+                                style="position: relative; overflow: hidden; padding: 3rem; text-align: left; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 15px 45px rgba(0,0,0,0.08); border: none;">
+                                <div
+                                    style="position: absolute; top: 0; left: 0; right: 0; height: 8px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                                </div>
+                                <div
+                                    style="background: rgba(0, 242, 255, 0.1); width: 70px; height: 70px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                                    <i data-lucide="refresh-cw"
+                                        style="color: var(--primary); width: 35px; height: 35px;"></i>
+                                </div>
+                                <h4 style="font-weight: 400; color: var(--navy); margin: 0; line-height: 1.3;">
+                                    Gestión del ciclo de vida y recursividad del efecto</h4>
+                            </div>
+
+                            <!-- Pilar 4 -->
+                            <div class="glass-card"
+                                style="position: relative; overflow: hidden; padding: 3rem; text-align: left; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 15px 45px rgba(0,0,0,0.08); border: none;">
+                                <div
+                                    style="position: absolute; top: 0; left: 0; right: 0; height: 8px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                                </div>
+                                <div
+                                    style="background: rgba(0, 242, 255, 0.1); width: 70px; height: 70px; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                                    <i data-lucide="brain"
+                                        style="color: var(--primary); width: 35px; height: 35px;"></i>
+                                </div>
+                                <h4 style="font-weight: 400; color: var(--navy); margin: 0; line-height: 1.3;">
+                                    Mecanismos psicológicos predominantes</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- BLOQUE 4: HALLAZGOS -->
+
+            <!-- 16. CASO MATTELSA -->
+            <div class="slide slide-light">
+                <div class="case-matrix-grid animate-element">
+                    <!-- Pillar 1: Top Left -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="globe"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Transición de bodegas underground a tiendas premium</p>
+                    </div>
+
+                    <!-- Profile Core: Center -->
+                    <div class="profile-core glass-card"
+                        style="border: 2px solid rgba(0,242,255,0.1); background: rgba(255,255,255,0.8); backdrop-filter: blur(20px);">
+                        <div class="profile-photo-circle"
+                            style="width: 200px; height: 200px; margin-bottom: 1.5rem; border: 4px solid var(--primary); background: #fff; box-shadow: 0 10px 25px rgba(0,242,255,0.2);">
+                            <img src="/logo_mattelsa.png" alt="Mattelsa"
+                                style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+
+                        <h2 class="text-h2" style="margin: 0; color: var(--navy); font-weight: 900;">Mattelsa</h2>
+                        <p style="color: #666; margin: 0.5rem 0 1.5rem 0; font-weight: 500;">
+                            Moda Urbana | 56+ Tiendas | +1.2M Seguidores
+                        </p>
+
+                        <div class="insight-bar" style="margin-top: 1.5rem;">
+                            <span><i data-lucide="award" style="width: 16px; height: 16px;"></i> Estrategia
+                                Premium</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="heart" style="width: 16px; height: 16px;"></i> Margen
+                                Consciente</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="trending-up" style="width: 16px; height: 16px;"></i> Crecimiento
+                                Anticíclico</span>
+                        </div>
+
+                        <!-- Expandable Metrics Button -->
+                        <details class="metrics-reveal metrics-dark-theme">
+                            <summary>
+                                <i data-lucide="database" style="width: 14px; height: 14px;"></i>
+                                Revelar métricas 2024
+                            </summary>
+                            <div class="metrics-content">
+                                <div class="metric-item">
+                                    <span class="metric-label">Ventas (2024)</span>
+                                    <span class="metric-value">$43M USD</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Margen Bruto / Neto</span>
+                                    <span class="metric-value">45% / 3.4%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Tráfico Orgánico / Directo</span>
+                                    <span class="metric-value">53% / 37%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Seguidores Totales</span>
+                                    <span class="metric-value">~3M</span>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Pillar 2: Top Right -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="zap"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Aperturas con 'caja fuerte misteriosa'</p>
+                    </div>
+
+                    <!-- Pillar 3: Bottom Left -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="refresh-cw"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Enfoque en Calidad sobre Cantidad</p>
+                    </div>
+
+                    <!-- Pillar 4: Bottom Right -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="brain"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Anonimato de marca y Capitalismo Regenerativo</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 17. CASO TRENDY SHOP -->
+            <div class="slide slide-dark">
+                <div class="case-matrix-grid animate-element">
+                    <!-- Pillar 1 -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); background: rgba(255,255,255,0.02);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="globe"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: #fff; margin: 0; line-height: 1.3; font-weight: 700;">
+                            Democratización de la belleza y Alta rotación</p>
+                    </div>
+
+                    <!-- Profile Core -->
+                    <div class="profile-core glass-card"
+                        style="border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); backdrop-filter: blur(20px);">
+                        <div class="profile-photo-circle"
+                            style="width: 200px; height: 200px; margin-bottom: 1.5rem; border: 4px solid var(--primary); background: #fff; box-shadow: 0 10px 25px rgba(0,242,255,0.2);">
+                            <img src="/logo_trendy.png" alt="Trendy"
+                                style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+
+                        <h2 class="text-h2" style="margin: 0; color: #fff; font-weight: 900;">Trendy Shop</h2>
+                        <p style="color: rgba(255,255,255,0.6); margin: 0.5rem 0 1.5rem 0; font-weight: 500;">
+                            Belleza & Retail | +2M Seguidores | Modelo Viral
+                        </p>
+
+                        <div class="insight-bar">
+                            <span><i data-lucide="zap" style="width: 16px; height: 16px;"></i> Alta Rotación</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="smartphone" style="width: 16px; height: 16px;"></i>
+                                Omnicanalidad</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="users" style="width: 16px; height: 16px;"></i> Basado en
+                                Comunidad</span>
+                        </div>
+
+                        <!-- Expandable Metrics Button -->
+                        <details class="metrics-reveal">
+                            <summary>
+                                <i data-lucide="database" style="width: 14px; height: 14px;"></i>
+                                Revelar métricas 2024
+                            </summary>
+                            <div class="metrics-content">
+                                <div class="metric-item">
+                                    <span class="metric-label">Ventas (2024)</span>
+                                    <span class="metric-value">$24M+ USD</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Margen Bruto / Neto</span>
+                                    <span class="metric-value">26% / 4%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Tráfico Orgánico / Directo</span>
+                                    <span class="metric-value">73% / 18%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Seguidores Totales</span>
+                                    <span class="metric-value">+2.5M</span>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Pillar 2 -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); background: rgba(255,255,255,0.02);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="zap"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: #fff; margin: 0; line-height: 1.3; font-weight: 700;">
+                            Cajas de adviento edición Nick 90s</p>
+                    </div>
+
+                    <!-- Pillar 3 -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); background: rgba(255,255,255,0.02);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="refresh-cw"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: #fff; margin: 0; line-height: 1.3; font-weight: 700;">
+                            Olas de hype recurrentes y compra por hábito</p>
+                    </div>
+
+                    <!-- Pillar 4 -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); background: rgba(255,255,255,0.02);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="brain"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: #fff; margin: 0; line-height: 1.3; font-weight: 700;">
+                            Interacción Parasocial y Marca Personal</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 18. CASO ACTION BLACK -->
+            <div class="slide slide-light">
+                <div class="case-matrix-grid animate-element">
+                    <!-- Pillar 1 -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="globe"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Integración tecnológica y neurociencia dentro del fitness</p>
+                    </div>
+
+                    <!-- Profile Core -->
+                    <div class="profile-core glass-card"
+                        style="border: 2px solid rgba(0,242,255,0.1); background: rgba(255,255,255,0.8); backdrop-filter: blur(20px);">
+                        <div class="profile-photo-circle"
+                            style="width: 200px; height: 200px; margin-bottom: 1.5rem; border: 4px solid var(--primary); background: #fff; box-shadow: 0 10px 25px rgba(0,242,255,0.2);">
+                            <img src="/Logo-action-Black.png" alt="Action Black"
+                                style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+
+                        <h2 class="text-h2" style="margin: 0; color: var(--navy); font-weight: 900;">Action Black</h2>
+                        <p style="color: #666; margin: 0.5rem 0 1.5rem 0; font-weight: 500;">
+                            Fitness & Tech | Expansión Global | 50% Margen
+                        </p>
+
+                        <div class="insight-bar">
+                            <span><i data-lucide="cpu" style="width: 16px; height: 16px;"></i> Integración
+                                Tecnológica</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="dollar-sign" style="width: 16px; height: 16px;"></i> Alto Margen
+                                Neto</span>
+                            <span class="separator">|</span>
+                            <span><i data-lucide="globe-2" style="width: 16px; height: 16px;"></i> Expansión
+                                Global</span>
+                        </div>
+
+                        <!-- Expandable Metrics Button -->
+                        <details class="metrics-reveal metrics-dark-theme">
+                            <summary>
+                                <i data-lucide="database" style="width: 14px; height: 14px;"></i>
+                                Revelar métricas 2024
+                            </summary>
+                            <div class="metrics-content">
+                                <div class="metric-item">
+                                    <span class="metric-label">Ventas (2024)</span>
+                                    <span class="metric-value">$22M+ USD</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Margen Bruto / Neto</span>
+                                    <span class="metric-value">9% / 50%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Tráfico Orgánico / Directo</span>
+                                    <span class="metric-value">48% / 44%</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="metric-label">Seguidores Totales</span>
+                                    <span class="metric-value">~160k</span>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Pillar 2 -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 1; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="zap"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Sedes sin capacidad para clases: Exclusividad masiva</p>
+                    </div>
+
+                    <!-- Pillar 3 -->
+                    <div class="glass-card"
+                        style="grid-column: 1; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="refresh-cw"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Hiper-expansión ágil para contener el hype</p>
+                    </div>
+
+                    <!-- Pillar 4 -->
+                    <div class="glass-card"
+                        style="grid-column: 3; grid-row: 2; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <div
+                            style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #0066ff);">
+                        </div>
+                        <i data-lucide="brain"
+                            style="color: var(--primary); width: 40px; height: 40px; margin-bottom: 1.5rem;"></i>
+                        <p class="text-h4" style="color: var(--navy); margin: 0; line-height: 1.3; font-weight: 700;">
+                            Estatus y Liderazgo aspiracional del CEO</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 19. ADN DEL HYPE -> MATRIZ ESTRATÉGICA -->
+            <div class="slide slide-dark" style="align-items: center; justify-content: center; padding-top: 1rem;">
+                <h2 class="animate-element"
+                    style="color: #fff; margin-bottom: 2rem; border: none; text-align: center; ">El ADN del Hype</h2>
+
+                <div class="bento-layout"
+                    style="max-width: 1500px; width: 100%; gap: 4rem 2rem; grid-template-columns: repeat(12, 1fr);">
+                    <!-- BLOQUE 1: EL ANCLA OPERATIVA -->
+                    <div style="grid-column: span 6; display: flex; align-items: center; gap: 2.5rem;">
+                        <div
+                            style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 242, 255, 0.05); width: 110px; height: 110px; border-radius: 24px; border: 1px solid rgba(0, 242, 255, 0.2); box-shadow: 0 0 40px rgba(0, 242, 255, 0.1);">
+                            <i data-lucide="anchor" style="color: var(--primary); width: 65px; height: 65px;"></i>
+                        </div>
+                        <div class="glass-card animate-element"
+                            style="flex-grow: 1; min-height: 200px; display: flex; flex-direction: column; justify-content: center; padding: 3rem; border-left: 4px solid #00f2ff; margin: 0;">
+                            <h3
+                                style="margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; line-height: 1.2;">
+                                1. El ancla operativa</h3>
+                            <ul
+                                style="list-style: none; padding: 0; margin: 1rem 0 0 0; color: #fff; font-size: 1.5rem; font-weight: 700; line-height: 1.4;">
+                                <li>• Tangibilidad de la oferta</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- BLOQUE 2: LOS DETONANTES ESTRATÉGICOS -->
+                    <div style="grid-column: span 6; display: flex; align-items: center; gap: 2.5rem;">
+                        <div
+                            style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 242, 255, 0.05); width: 110px; height: 110px; border-radius: 24px; border: 1px solid rgba(0, 242, 255, 0.2); box-shadow: 0 0 40px rgba(0, 242, 255, 0.1);">
+                            <i data-lucide="zap" style="color: var(--primary); width: 65px; height: 65px;"></i>
+                        </div>
+                        <div class="glass-card animate-element"
+                            style="flex-grow: 1; min-height: 200px; display: flex; flex-direction: column; justify-content: center; padding: 3rem; border-left: 4px solid #00f2ff; margin: 0;">
+                            <h3
+                                style="margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; line-height: 1.2;">
+                                2. Los detonantes estratégicos</h3>
+                            <ul
+                                style="list-style: none; padding: 0; margin: 1rem 0 0 0; color: #fff; font-size: 1.5rem; font-weight: 700; line-height: 1.4;">
+                                <li>• Atipicidad visual</li>
+                                <li>• Escasez y exclusividad</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- BLOQUE 3: LOS MOTORES DE PROPAGACIÓN -->
+                    <div style="grid-column: span 6; display: flex; align-items: center; gap: 2.5rem;">
+                        <div
+                            style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 242, 255, 0.05); width: 110px; height: 110px; border-radius: 24px; border: 1px solid rgba(0, 242, 255, 0.2); box-shadow: 0 0 40px rgba(0, 242, 255, 0.1);">
+                            <i data-lucide="trending-up" style="color: var(--primary); width: 65px; height: 65px;"></i>
+                        </div>
+                        <div class="glass-card animate-element"
+                            style="flex-grow: 1; min-height: 200px; display: flex; flex-direction: column; justify-content: center; padding: 3rem; border-left: 4px solid #00f2ff; margin: 0;">
+                            <h3
+                                style="margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; line-height: 1.2;">
+                                3. Los motores de propagación</h3>
+                            <ul
+                                style="list-style: none; padding: 0; margin: 1rem 0 0 0; color: #fff; font-size: 1.5rem; font-weight: 700; line-height: 1.4;">
+                                <li>• Tráfico orgánico (eWOM)</li>
+                                <li>• Validación social</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- BLOQUE 4: LOS CONECTORES PSICOLÓGICOS -->
+                    <div style="grid-column: span 6; display: flex; align-items: center; gap: 2.5rem;">
+                        <div
+                            style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 242, 255, 0.05); width: 110px; height: 110px; border-radius: 24px; border: 1px solid rgba(0, 242, 255, 0.2); box-shadow: 0 0 40px rgba(0, 242, 255, 0.1);">
+                            <i data-lucide="heart" style="color: var(--primary); width: 65px; height: 65px;"></i>
+                        </div>
+                        <div class="glass-card animate-element"
+                            style="flex-grow: 1; min-height: 200px; display: flex; flex-direction: column; justify-content: center; padding: 3rem; border-left: 4px solid #00f2ff; margin: 0;">
+                            <h3
+                                style="margin: 0; color: var(--primary); font-size: 1.8rem; font-weight: 800; line-height: 1.2;">
+                                4. Los conectores psicológicos</h3>
+                            <ul
+                                style="list-style: none; padding: 0; margin: 1rem 0 0 0; color: #fff; font-size: 1.5rem; font-weight: 700; line-height: 1.4;">
+                                <li>• Vínculo emocional e identidad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 20. PATRONES Y DIVERGENCIAS: ORBIT SYSTEM -->
+            <div class="slide slide-dark" style="padding: 2rem 4rem; overflow: hidden;">
+                <h2 class="animate-element"
+                    style="color: #fff; margin-bottom: 2rem; border: none; text-align: center; font-size: 3.5rem;">
+                    Patrones y Divergencias</h2>
+
+                <div
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; width: 100%; height: 75vh; max-width: 1700px; margin: 0 auto; position: relative;">
+
+                    <!-- ORBIT 1: PATRONES -->
+                    <div class="animate-element"
+                        style="position: relative; height: 100%; display: flex; align-items: center; justify-content: center;">
+
+                        <!-- Central Node: Patrones -->
+                        <div
+                            style="width: 280px; height: 280px; border-radius: 50%; background: rgba(0, 242, 255, 0.05); border: 2px solid var(--primary); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 10; box-shadow: 0 0 60px rgba(0, 242, 255, 0.2); backdrop-filter: blur(10px);">
+                            <i data-lucide="layout-grid"
+                                style="color: var(--primary); width: 80px; height: 80px; margin-bottom: 1rem;"></i>
+                            <h3
+                                style="color: #fff; font-size: 2.4rem; font-weight: 800; margin: 0; letter-spacing: 1px;">
+                                Patrones</h3>
+                        </div>
+
+                        <!-- Satellite 1: Tangibilidad -->
+                        <div style="position: absolute; transform: translate(-200px, -240px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 320px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--primary); animation: float 6s ease-in-out infinite;">
+                                <h4 style="color: var(--primary); margin: 0; font-size: 1.5rem; font-weight: 800;">La
+                                    tangibilidad</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    como ancla de la promesa</p>
+                            </div>
+                        </div>
+
+                        <!-- Satellite 2: Atipicidad -->
+                        <div style="position: absolute; transform: translate(240px, -140px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 320px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--primary); animation: float 8s ease-in-out infinite;">
+                                <h4 style="color: var(--primary); margin: 0; font-size: 1.5rem; font-weight: 800;">
+                                    Atipicidad Visual</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    como detonante de identidad</p>
+                            </div>
+                        </div>
+
+                        <!-- Satellite 3: eWOM -->
+                        <div style="position: absolute; transform: translate(-50px, 260px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 340px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--primary); animation: float 7s ease-in-out infinite;">
+                                <h4 style="color: var(--primary); margin: 0; font-size: 1.5rem; font-weight: 800;">El
+                                    eWOM</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    como motor de compromiso</p>
+                            </div>
+                        </div>
+
+                        <!-- Background Orbits -->
+                        <div
+                            style="position: absolute; width: 550px; height: 550px; border: 1px dashed rgba(0, 242, 255, 0.2); border-radius: 50%; z-index: 0;">
+                        </div>
+                    </div>
+
+                    <!-- ORBIT 2: DIVERGENCIAS -->
+                    <div class="animate-element"
+                        style="position: relative; height: 100%; display: flex; align-items: center; justify-content: center;">
+
+                        <!-- Central Node: Divergencias -->
+                        <div
+                            style="width: 280px; height: 280px; border-radius: 50%; background: rgba(255, 71, 87, 0.05); border: 2px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 10; box-shadow: 0 0 60px rgba(255, 71, 87, 0.2); backdrop-filter: blur(10px);">
+                            <i data-lucide="git-branch"
+                                style="color: var(--accent); width: 80px; height: 80px; margin-bottom: 1rem;"></i>
+                            <h3
+                                style="color: #fff; font-size: 2.4rem; font-weight: 800; margin: 0; letter-spacing: 1px;">
+                                Divergencias</h3>
+                        </div>
+
+                        <!-- Satellite 1: Influencia -->
+                        <div style="position: absolute; transform: translate(200px, -240px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 340px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--accent); animation: float 6.5s ease-in-out infinite;">
+                                <h4 style="color: var(--accent); margin: 0; font-size: 1.5rem; font-weight: 800;">
+                                    Interacción Parasocial</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    vs. Identidad Conceptual</p>
+                            </div>
+                        </div>
+
+                        <!-- Satellite 2: Gestión Recursividad -->
+                        <div style="position: absolute; transform: translate(-260px, -100px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 320px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--accent); animation: float 9s ease-in-out infinite;">
+                                <h4 style="color: var(--accent); margin: 0; font-size: 1.5rem; font-weight: 800;">
+                                    Gestión</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    de la "Recursividad"</p>
+                            </div>
+                        </div>
+
+                        <!-- Satellite 3: Exclusividad Masiva -->
+                        <div style="position: absolute; transform: translate(50px, 260px); z-index: 15;">
+                            <div class="glass-card"
+                                style="width: 320px; padding: 1.2rem 1.5rem; text-align: center; border-left: 5px solid var(--accent); animation: float 7.5s ease-in-out infinite;">
+                                <h4 style="color: var(--accent); margin: 0; font-size: 1.5rem; font-weight: 800;">La
+                                    paradoja</h4>
+                                <p
+                                    style="color: #fff; margin: 0.2rem 0 0 0; font-size: 1.1rem; opacity: 0.9; font-weight: 500;">
+                                    de Action Black</p>
+                            </div>
+                        </div>
+
+                        <!-- Background Orbits -->
+                        <div
+                            style="position: absolute; width: 550px; height: 550px; border: 1px dashed rgba(255, 71, 87, 0.2); border-radius: 50%; z-index: 0;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- 23. SÍNTESIS ESTRATÉGICA -->
+            <div class="slide slide-dark" style="align-items: center; justify-content: center; padding-top: 2rem;">
+                <h2 class="animate-element" style="color: #fff; margin-bottom: 2rem; border: none; text-align: center;">
+                    El Verdadero Reto...</h2>
+                <p class="animate-element"
+                    style="color: rgba(255,255,255,0.9); text-align: center; max-width: 900px; margin-bottom: 5rem; font-size: 1.8rem; font-weight: 700;">
+                    El verdadero desafío estratégico es gestionar el hype para evitar el <strong
+                        style="color: #ff4d4d;">Downswing</strong>.
+                </p>
+
+                <div class="layout-grid-3 animate-element"
+                    style="max-width: 1400px; width: 100%; gap: 5rem; position: relative; margin-top: 2rem;">
+                    <!-- Connector Line -->
+                    <div
+                        style="position: absolute; top: 60px; left: 10%; right: 10%; height: 3px; background: linear-gradient(90deg, rgba(0,242,255,0) 0%, rgba(0,242,255,0.4) 50%, rgba(0,242,255,0) 100%); z-index: 0;">
+                    </div>
+
+                    <!-- Step 1 -->
+                    <div
+                        style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2rem;">
+                        <div
+                            style="width: 120px; height: 120px; border-radius: 50%; background: var(--navy); border: 3px solid var(--primary); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);">
+                            <i data-lucide="zap" style="color: var(--primary); width: 50px; height: 50px;"></i>
+                        </div>
+                        <h3 style="color: #fff; margin: 0; font-size: 1.8rem; font-weight: 800;">Atención Efímera</h3>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div
+                        style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2rem; margin-top: -2.5rem;">
+                        <div
+                            style="width: 150px; height: 150px; border-radius: 50%; background: rgba(0, 242, 255, 0.1); border: 4px solid #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 40px rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);">
+                            <i data-lucide="layers" style="color: #fff; width: 65px; height: 65px;"></i>
+                        </div>
+                        <h3 style="color: #fff; margin: 0; font-size: 2rem; font-weight: 800;">Fricción Operativa</h3>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div
+                        style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2rem;">
+                        <div
+                            style="width: 120px; height: 120px; border-radius: 50%; background: var(--navy); border: 3px solid var(--primary); display: flex; align-items: center; justify-content: center; box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);">
+                            <i data-lucide="shield-check" style="color: var(--primary); width: 50px; height: 50px;"></i>
+                        </div>
+                        <h3 style="color: #fff; margin: 0; font-size: 1.8rem; font-weight: 800;">Lealtad Permanente</h3>
+                    </div>
+                </div>
+
+                <!-- Quote/Insight Box -->
+                <div class="animate-element"
+                    style="margin-top: 6rem; padding: 2.5rem; background: rgba(255,255,255,0.03); border-radius: 20px; border-left: 5px solid var(--primary); max-width: 1000px; width: 100%;">
+                    <p
+                        style="color: #fff; font-style: italic; font-size: 1.5rem; margin: 0; text-align: center; line-height: 1.5;">
+                        "El Hype es un excelente acelerador comercial, pero un pésimo sustituto para los fundamentales
+                        operativos del negocio."
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- 24. CONCLUSIONES FINALES -->
+            <div class="slide slide-light">
+                <h2 class="animate-element" style="margin-bottom: 4rem;">Conclusiones</h2>
+
+                <div class="animate-element" style="width: 95%; max-width: 1500px; margin: 0 auto;">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem;">
+                        <!-- Conclusión 1 -->
+                        <div class="glass-card"
+                            style="text-align: center; padding: 4rem 2rem; border-radius: 24px; border-top: 8px solid var(--primary); min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="refresh-ccw"
+                                style="color: var(--primary); width: 70px; height: 70px; margin-bottom: 2.5rem;"></i>
+                            <h3
+                                style="color: var(--navy); font-size: 1.8rem; font-weight: 800; margin-bottom: 0; line-height: 1.3;">
+                                Sistema único,<br>resultados diferentes</h3>
+                        </div>
+
+                        <!-- Conclusión 2 -->
+                        <div class="glass-card"
+                            style="text-align: center; padding: 4rem 2rem; border-radius: 24px; border-top: 8px solid var(--primary-alt); min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="shield-check"
+                                style="color: var(--primary-alt); width: 70px; height: 70px; margin-bottom: 2.5rem;"></i>
+                            <h3
+                                style="color: var(--navy); font-size: 1.8rem; font-weight: 800; margin-bottom: 0; line-height: 1.3;">
+                                Oferta tangible<br>sostiene expectativas</h3>
+                        </div>
+
+                        <!-- Conclusión 3 -->
+                        <div class="glass-card"
+                            style="text-align: center; padding: 4rem 2rem; border-radius: 24px; border-top: 8px solid var(--accent); min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                            <i data-lucide="zap"
+                                style="color: var(--accent); width: 70px; height: 70px; margin-bottom: 2.5rem;"></i>
+                            <h3
+                                style="color: var(--navy); font-size: 1.8rem; font-weight: 800; margin-bottom: 0; line-height: 1.3;">
+                                Capacidad dinámica,<br>no velocidad</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 25. LÍMITES Y PROYECCIONES -->
+            <div class="slide slide-dark layout-center">
+                <div class="hero-bg"
+                    style="position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(255, 71, 87, 0.1) 0%, transparent 70%); z-index: -1;">
+                </div>
+
+                <div class="animate-element" style="margin-bottom: 3rem; display: flex; justify-content: center;">
+                    <div
+                        style="background: rgba(255, 71, 87, 0.1); width: 150px; height: 150px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 50px rgba(255, 71, 87, 0.2); border: 1px solid rgba(255, 71, 87, 0.3);">
+                        <i data-lucide="map" style="color: var(--accent); width: 80px; height: 80px;"></i>
+                    </div>
+                </div>
+
+                <div class="glass-card animate-element"
+                    style="max-width: 1000px; text-align: center; border: 1px solid rgba(255, 71, 87, 0.3); padding: 3rem 5rem;">
+                    <h2
+                        style="color: #fff; margin: 0; font-size: 3.5rem; font-weight: 800; border: none; letter-spacing: -1px;">
+                        Límites y Proyecciones</h2>
+                </div>
+            </div>
+
+
+            <!-- 26. CIERRE -->
+            <div class="slide slide-dark layout-center">
+                <h1 class="animate-element" style="color: var(--primary);">¡Gracias!</h1>
+                <div class="animate-element" style="margin-top: 2rem;">
+                    <p>Alejandro Ruiz Arenas</p>
+                    <p style="opacity: 0.6; margin-top: 1rem;">Digital Business | ESIC</p>
+                    <div class="animate-element"
+                        style="margin-top: 4rem; display: flex; gap: 2rem; justify-content: center;">
+                        <i data-lucide="linkedin" style="cursor: pointer;"></i>
+                        <i data-lucide="mail" style="cursor: pointer;"></i>
+                        <i data-lucide="external-link" style="cursor: pointer;"></i>
+                    </div>
+                </div>
+
+                <div class="footer">Estrategia Digital | Alejandro Ruiz Arenas</div>
+            </div>
+
+            <div class="controls">
+                <button class="nav-btn" id="prevBtn">←</button>
+                <button class="nav-btn" id="nextBtn">→</button>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+</body>
+
+</html>
