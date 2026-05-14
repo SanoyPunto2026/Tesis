@@ -924,3 +924,29 @@ p {
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 0 16px 16px 0;
 }
+
+/* ACADEMIC CITATIONS */
+.slide-citation {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
+  z-index: 10;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.slide-light .slide-citation {
+  color: var(--navy);
+}
+
+.slide-dark .slide-citation {
+  color: #fff;
+}
+
+.presentation-container.hide-footer .slide-citation {
+  opacity: 0.2; /* Even more subtle in immersive mode but still present */
+}
