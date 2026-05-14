@@ -67,6 +67,56 @@ document.getElementById('prevBtn').addEventListener('click', () => {
   if (currentSlide > 0) showSlide(currentSlide - 1);
 });
 
+// FULLSCREEN LOGIC
+const fullscreenBtn = document.getElementById('fullscreenBtn');
+const controls = document.querySelector('.controls');
+
+fullscreenBtn.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().then(() => {
+      // Hide elements for immersive mode
+      fullscreenBtn.style.display = 'none';
+      controls.style.opacity = '0';
+      controls.style.pointerEvents = 'none';
+    }).catch(err => {
+      console.error(`Error: ${err.message}`);
+    });
+  }
+});
+
+// Detect exiting fullscreen to show elements back (optional but good practice)
+document.addEventListener('fullscreenchange', () => {
+  if (!document.fullscreenElement) {
+    fullscreenBtn.style.display = 'flex';
+    controls.style.opacity = '1';
+    controls.style.pointerEvents = 'all';
+  }
+});
+
+// SWIPE NAVIGATION FOR MOBILE
+let touchstartX = 0;
+let touchendX = 0;
+
+function checkDirection() {
+  if (touchendX < touchstartX - 50) {
+    // Swipe Left -> Next
+    if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);
+  }
+  if (touchendX > touchstartX + 50) {
+    // Swipe Right -> Prev
+    if (currentSlide > 0) showSlide(currentSlide - 1);
+  }
+}
+
+document.addEventListener('touchstart', e => {
+  touchstartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener('touchend', e => {
+  touchendX = e.changedTouches[0].screenX;
+  checkDirection();
+});
+
 window.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight' || e.key === ' ') {
     if (currentSlide < slides.length - 1) showSlide(currentSlide + 1);

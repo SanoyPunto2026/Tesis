@@ -797,24 +797,29 @@ p {
   position: absolute;
   bottom: 40px;
   left: 60px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   opacity: 0.4;
-  color: #fff;
-  font-family: var(--font-body);
-  transition: opacity 0.3s ease, color 0.3s ease;
+  color: var(--primary);
   z-index: 100;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
 }
 
 .presentation-container.hide-footer .footer {
   opacity: 0;
-  pointer-events: none;
 }
 
-.slide.active.slide-light~.footer {
+#fullscreenBtn:hover {
+  transform: translateY(-5px) scale(1.05);
+  filter: brightness(1.1);
+}
+.slide.active.slide-light ~ .footer {
   color: var(--navy);
 }
 
-.slide.active.slide-dark~.footer {
+.slide.active.slide-dark ~ .footer {
   color: #fff;
 }
 
